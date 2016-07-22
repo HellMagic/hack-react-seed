@@ -1,0 +1,40 @@
+.button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+   
+}
+
+.tips {
+    background-color:#e7f9f0; 
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.school-report-layout {
+    position: relative;
+}
+
+.school-report-content {
+    width: 720px;
+    margin: 0 auto; 
+    margin-top: 50px;
+}
+
+.school-report-dynamic {
+    color: #214dff;
+    font-size: 18px;
+    margin: 0 10px;
+}
+.table-unit {
+     border: 1px solid #d7d7d7;
+     text-align: left;
+     vertical-align: middle !important;
+     min-height: 40px;
+     line-height: 40px;        
+     padding-left: 30px !important;
+     font-size: 12px;
+}
+.common-font {
+    font-family: Helvetica, Arial, "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", Simhei, "黑体", SimSun, "宋体", sans-serif;
+}

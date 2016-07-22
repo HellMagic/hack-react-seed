@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/login/login.css" />
+    <script src="https://code.jquery.com/jquery-2.2.2.js" integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="usercenter-header">
+        <img src="/login/header_bg.png" class="header-image" />
+        <img src="/login/yunxiaologo.png" alt="云校logo" class="yx-logo" />
+    </header>
+    <div class="yx-content">
+        <article class="usercenter-container">
+            <!--登录云校帐号表单-->
+            <form class="login-yunxiao">
+                <!--验证帐号 当输入的是电话时再form-list后添加account-phone ->
+        <!--当输入的是用户名时再form-list后添加account-username-->
+                <!--当输入的是邮箱时再form-list后添加account-email-->
+                <!--以上全部去除， 统一为account-name -->
+                <section class="form-list account-name">
+                    <input id="loginName" type="text" placeholder="请输入用户名/邮箱/手机号" />
+                    <!--左侧图标-->
+                    <span class="username-icon"></span>
+                    <aside class="validate hide">
+                        <span></span>
+                    </aside>
+                </section>
+                <section class="form-list account-password">
+                    <input id="password" type="password" maxlength=20 placeholder="请输入密码" />
+                    <span class="password-icon"></span>
+                    <aside class="validate hide">
+                        <span></span>
+                    </aside>
+                </section>
+                <section class="form-list">
+                    <button type="submit" id="btn-login" class="account-btn account-submit">登录</button>
+                </section>
+            </form>
+        </article>
+    </div>
+    <footer class="usercenter-footer">
+        <ul>
+            <li><a href="http://www.yunxiao.com">云校官网</a></li>
+            <li><a href="http://paike.yunxiao.com">排课</a></li>
+            <li><a href="http://bbs.yunxiao.com">论坛</a></li>
+            <li><a>北京修齐治平科技有限公司 ©2015</a></li>
+        </ul>
+    </footer>
+    <script type="text/javascript" src='/login/login.js'>
+        
+    </script>   
+</body> 
+
+</html>
